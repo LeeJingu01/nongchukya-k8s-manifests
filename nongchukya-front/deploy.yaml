@@ -13,7 +13,7 @@ spec:
         app: matching-vue
     spec:
       containers:
-      - name: myapp
+      - name: matching-vue
         image: leejingu/matching-vue:12.0
         resources:
           requests:
