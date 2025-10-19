@@ -27,6 +27,9 @@ spec:
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev
+        envFrom:
+        - secretRef:
+            name: backend-secret
         # 컨테이너 안의 애플리케이션이 시작되었는지 확인한다.
         startupProbe: 
           httpGet:
