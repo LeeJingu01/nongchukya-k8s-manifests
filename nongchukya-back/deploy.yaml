@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: matching-api
-        image: leejingu/matching-back:21
+        image: leejingu/matching-back:22
         resources:
           requests:
             memory: "521Mi"
