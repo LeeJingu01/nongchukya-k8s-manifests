@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: matching-vue
-        image: leejingu/matching-vue:22
+        image: leejingu/matching-vue:23
         resources:
           requests:
             memory: "512Mi"
